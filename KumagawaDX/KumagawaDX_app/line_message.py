@@ -4,7 +4,7 @@ import urllib.request
 import json
 
 REPLY_ENDPOINT_URL = "https://api.line.me/v2/bot/message/reply"
-ACCESSTOKEN = '発行したアクセストークンをここに貼り付け'
+ACCESSTOKEN = 'oqt61pHx6Ojj+7Lxs1exHXBmbfC+/75zZjIrEv9MhlDWlA1BHj4BFa4xEviV/QxpM2HHqDA6FXAfrs/+CVRJNlB70FAWofpgSq/fz4pwjjQVCQrfZy68ppp9WtJsJ199xLzcfYrpfbUD8IhVXwA06AdB04t89/1O/w1cDnyilFU='
 HEADER = {
     'Content-Type': 'application/json',
     'Authorization': 'Bearer ' + ACCESSTOKEN
